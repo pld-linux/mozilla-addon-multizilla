@@ -1,0 +1,3 @@
+content,install,url,jar:resource:/chrome/multiviews.jar!/content/multiviews/
+skin,install,url,jar:resource:/chrome/multiviews.jar!/skin/modern/multiviews/
+locale,install,url,jar:resource:/chrome/multiviews.jar!/locale/en-US/multiviews/
