@@ -7,7 +7,7 @@ License:        GPL
 Group:          X11/Applications/Networking
 Source0:	http://downloads.mozdev.org/multizilla/multiviews-v1115.xpi
 Source1:        multiviews-installed-chrome.txt
-URL:            http://qlookup.mozdev.org/
+URL:            http://multizilla.mozdev.org/
 BuildRequires:  unzip
 Requires:       mozilla >= 1.0
 BuildRoot:      %{tmpdir}/%{_realname}-%{version}-root-%(id -u -n)
