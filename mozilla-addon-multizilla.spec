@@ -2,10 +2,10 @@ Summary:	Advanced panel tool
 Summary(pl):	Zaawansowane zarz±dzanie panelami
 Name:		mozilla-addon-multizilla
 %define		_realname	multiviews
-%define	bver	1.1.15
+%define	bver	1.1.20
 Version:	%{bver}beta2
 %define	fver	%(echo %{bver} | tr -d .)
-Release:	2
+Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://downloads.mozdev.org/multizilla/%{_realname}-v%{fver}.xpi
