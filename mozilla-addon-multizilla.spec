@@ -18,7 +18,7 @@ Requires(post,postun):	textutils
 Requires:	mozilla >= 1.0-7
 Conflicts:	mozilla-addon-tabbrowser
 BuildArch:	noarch
-BuildRoot:	%{tmpdir}/%{_realname}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_chromedir	%{_datadir}/mozilla/chrome
 
