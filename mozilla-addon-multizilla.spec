@@ -9,6 +9,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://downloads.mozdev.org/multizilla/%{_realname}-v%{fver}.xpi
+# Source0-md5:	67b9f26ae50830860dd6fe8717f18464
 Source1:	%{_realname}-installed-chrome.txt
 URL:		http://multizilla.mozdev.org/
 BuildRequires:	unzip
