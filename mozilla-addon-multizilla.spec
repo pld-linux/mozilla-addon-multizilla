@@ -5,7 +5,7 @@ Name:		mozilla-addon-multizilla
 %define	bver	1.6.40
 Version:	%{bver}
 %define	fver	%(echo %{bver} | tr -d .)
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://mozdev.sweetooth.org/multizilla/%{_realname}-v%{fver}.xpi
@@ -18,7 +18,7 @@ Requires:	mozilla >= 1.0-7
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{_realname}-%{version}-root-%(id -u -n)
 
-%define		_chromedir	%{_libdir}/mozilla/chrome
+%define		_chromedir	%{_datadir}/mozilla/chrome
 
 %description
 Multizilla is a tool to maintain panels - closing them, opening,
