@@ -13,9 +13,9 @@ Source0:	http://mozdev.sweetooth.org/multizilla/%{_realname}-v%{fver}.xpi
 Source1:	%{_realname}-installed-chrome.txt
 URL:		http://multizilla.mozdev.org/
 BuildRequires:	unzip
-Requires(post,postun):	mozilla >= 1.7.3-3
+Requires(post,postun):	mozilla >= 5:1.7.3-3
 Requires(post,postun):	textutils
-Requires:	mozilla >= 1.0-7
+Requires:	mozilla >= 2:1.0-7
 Conflicts:	mozilla-addon-tabbrowser
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
