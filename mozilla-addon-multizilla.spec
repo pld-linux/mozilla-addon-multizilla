@@ -5,7 +5,7 @@ Name:		mozilla-addon-multizilla
 %define	bver	1.6.40
 Version:	%{bver}
 %define	fver	%(echo %{bver} | tr -d .)
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://mozdev.sweetooth.org/multizilla/%{_realname}-v%{fver}.xpi
@@ -15,6 +15,7 @@ URL:		http://multizilla.mozdev.org/
 BuildRequires:	unzip
 Requires(post,postun):	textutils
 Requires:	mozilla >= 1.0-7
+Obsoletes:	mozilla-addon-tabbrowser
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{_realname}-%{version}-root-%(id -u -n)
 
