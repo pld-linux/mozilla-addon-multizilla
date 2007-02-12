@@ -1,5 +1,5 @@
 Summary:	Advanced panel tool
-Summary(pl):	Zaawansowane zarz±dzanie panelami
+Summary(pl.UTF-8):   Zaawansowane zarzÄ…dzanie panelami
 Name:		mozilla-addon-multizilla
 %define		_realname	multiviews
 %define	bver	1.6.40
@@ -26,10 +26,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Multizilla is a tool to maintain panels - closing them, opening,
 saving their status between sessions. It contains additional toolbar.
 
-%description -l pl
-Narzêdzie do zarz±dzania panelami, u³atwiaj±ce zamykanie, otwieranie
-paneli oraz zapisywanie ich statusu pomiêdzy sesjami. Zawiera
-dodatkowy pasek narzêdziowy.
+%description -l pl.UTF-8
+NarzÄ™dzie do zarzÄ…dzania panelami, uÅ‚atwiajÄ…ce zamykanie, otwieranie
+paneli oraz zapisywanie ich statusu pomiÄ™dzy sesjami. Zawiera
+dodatkowy pasek narzÄ™dziowy.
 
 %prep
 
