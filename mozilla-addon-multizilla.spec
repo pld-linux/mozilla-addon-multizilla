@@ -1,5 +1,5 @@
 Summary:	Advanced panel tool
-Summary(pl.UTF-8):   Zaawansowane zarządzanie panelami
+Summary(pl.UTF-8):	Zaawansowane zarządzanie panelami
 Name:		mozilla-addon-multizilla
 %define		_realname	multiviews
 %define	bver	1.6.40
